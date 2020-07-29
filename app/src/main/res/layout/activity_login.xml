@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#fff"
+    android:gravity="center"
     android:orientation="vertical"
     android:padding="10dp"
     tools:context=".ActivityLogin">
@@ -14,7 +15,7 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_gravity="center"
-        android:layout_marginTop="90dp"
+
         android:src="@drawable/splash_logo" />
 
     <com.google.android.material.textfield.TextInputLayout
