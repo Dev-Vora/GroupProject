@@ -1,8 +1,216 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <GridLayout
+        android:id="@+id/gridlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alignmentMode="alignMargins"
+        android:columnCount="1"
+        android:columnOrderPreserved="false"
+        android:padding="14dp"
+        android:rowCount="3">
 
 
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardview1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="2"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardBackgroundColor="@color/colorPrimary"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+            <ImageView
+                android:id="@+id/std1"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="50dp"
+                android:contentDescription="@string/std1"
+                android:src="@drawable/logo" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/no1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:gravity="right"
+                    android:text="19SOECE11021"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/name1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Dev Vora"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/email1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="dvora956@rku.ac.in"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/class1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="5CEB_2022"
+                    android:textSize="18sp" />
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="2"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardBackgroundColor="@color/colorPrimary"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp">
+
+            <ImageView
+                android:id="@+id/std2"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="50dp"
+                android:contentDescription="@string/std2"
+                android:src="@drawable/logo" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_margin="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/no2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:gravity="right"
+                    android:text="19SOECE11024"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/name2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Dev Mehta"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/email2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="dmehta356@rku.ac.in"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/class2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="5CEB_2022"
+                    android:textSize="18sp" />
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="2"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardBackgroundColor="@color/colorPrimary"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/logo" />
+
+
+            <LinearLayout
+                android:layout_width="177dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/no3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:gravity="right"
+                    android:text="18SOEIT11014"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/name3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Arazu Kaneriya"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/email3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="akaneriya973@rku.ac.in"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/class3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5CIT_2022"
+                    android:textSize="18sp" />
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </GridLayout>
+
+</RelativeLayout>
