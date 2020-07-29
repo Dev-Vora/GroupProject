@@ -8,4 +8,6 @@
     <string name="login">Login</string>
     <string name="forget_password">Forget Password</string>
     <string name="create_account">Create Account</string>
+    <string name="ContactUs">Contact Us</string>
+    <string name="submit">Send</string>
 </resources>
