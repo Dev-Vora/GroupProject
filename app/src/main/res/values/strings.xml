@@ -1,6 +1,11 @@
 <resources>
-    <string name="app_name">GroupProject</string>
+    <string name="app_name">Group Project</string>
     <string name="std1">std1</string>
     <string name="std2">std2</string>
     <string name="std3">std3</string>
+    <string name="password"> Enter Password</string>
+    <string name="enter_email"> Enter Email</string>
+    <string name="login">Login</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="create_account">Create Account</string>
 </resources>
