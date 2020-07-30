@@ -29,6 +29,7 @@
             app:cardBackgroundColor="@color/colorPrimary"
             app:cardCornerRadius="20dp"
             android:padding="2dp"
+            android:foregroundGravity="center"
             app:cardElevation="10dp">
 
             <ImageView
@@ -54,6 +55,7 @@
                     android:layout_marginTop="30dp"
                     android:gravity="right"
                     android:text="19SOECE13016"
+                    android:textColor="#fff"
                     android:textSize="18sp" />
 
                 <TextView
@@ -61,6 +63,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
+                    android:textColor="#fff"
                     android:text="Dev Vora"
                     android:textSize="18sp" />
 
@@ -70,7 +73,8 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="dvora956@rku.ac.in"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:textColor="#fff"/>
 
                 <TextView
                     android:id="@+id/class1"
@@ -78,6 +82,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="5CEB_2022"
+                    android:textColor="#fff"
                     android:textSize="18sp" />
 
 
@@ -96,6 +101,7 @@
             app:cardBackgroundColor="@color/colorPrimary"
             app:cardCornerRadius="20dp"
             android:padding="2dp"
+            android:foregroundGravity="center"
             app:cardElevation="10dp">
 
             <ImageView
@@ -120,6 +126,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
                     android:gravity="right"
+                    android:textColor="#fff"
                     android:text="19SOECE13017"
                     android:textSize="18sp" />
 
@@ -129,6 +136,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="Dev Mehta"
+                    android:textColor="#fff"
                     android:textSize="18sp" />
 
                 <TextView
@@ -137,7 +145,8 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="dmehta356@rku.ac.in"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:textColor="#fff"/>
 
                 <TextView
                     android:id="@+id/class2"
@@ -145,6 +154,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="5CEB_2022"
+                    android:textColor="#fff"
                     android:textSize="18sp" />
             </LinearLayout>
 
@@ -161,6 +171,7 @@
             app:cardBackgroundColor="@color/colorPrimary"
             app:cardCornerRadius="20dp"
             android:padding="2dp"
+            android:foregroundGravity="center"
             app:cardElevation="10dp">
 
             <ImageView
@@ -182,6 +193,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
                     android:gravity="right"
+                    android:textColor="#fff"
                     android:text="18SOEIT11014"
                     android:textSize="18sp" />
 
@@ -190,20 +202,23 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Arazu Kaneriya"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:textColor="#fff"/>
 
                 <TextView
                     android:id="@+id/email3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="akaneriya973@rku.ac.in"
-                    android:textSize="15sp" />
+                    android:textSize="15sp"
+                    android:textColor="#fff"/>
 
                 <TextView
                     android:id="@+id/class3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="5CIT_2022"
+                    android:textColor="#fff"
                     android:textSize="18sp" />
             </LinearLayout>
 
