@@ -29,6 +29,7 @@
             app:cardBackgroundColor="@color/colorPrimary"
             app:cardCornerRadius="20dp"
             android:padding="2dp"
+            android:foregroundGravity="center"
             app:cardElevation="10dp">
 
             <ImageView
@@ -96,6 +97,7 @@
             app:cardBackgroundColor="@color/colorPrimary"
             app:cardCornerRadius="20dp"
             android:padding="2dp"
+            android:foregroundGravity="center"
             app:cardElevation="10dp">
 
             <ImageView
@@ -161,6 +163,7 @@
             app:cardBackgroundColor="@color/colorPrimary"
             app:cardCornerRadius="20dp"
             android:padding="2dp"
+            android:foregroundGravity="center"
             app:cardElevation="10dp">
 
             <ImageView
