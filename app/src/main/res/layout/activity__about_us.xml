@@ -217,7 +217,7 @@
                     android:id="@+id/class3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="5CIT_2022"
+                    android:text="5IT_2022"
                     android:textColor="#fff"
                     android:textSize="18sp" />
             </LinearLayout>

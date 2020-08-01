@@ -6,7 +6,7 @@
     <string name="password"> Enter Password</string>
     <string name="enter_email"> Enter Email</string>
     <string name="login">Login</string>
-    <string name="forget_password">Forget Password</string>
+    <string name="forget_password">Forgot Password</string>
     <string name="create_account">Create Account</string>
     <string name="ContactUs">Contact Us</string>
     <string name="submit">Send</string>
